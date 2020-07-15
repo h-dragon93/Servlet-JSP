@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="queryTest" method="post">
+		<input type="hidden" name="code" value="delete">
+		ID : 		<input type="test" name="id" value="guest"> <br>
+		Password :  <input type="password" name="pwd" value="12345"> <br>
+		사진 : <input type="file" name="pic"> <br>
+		좋아하는색상 : 	<input type="checkbox" name="color" value="red" checked>빨강
+					<input type="checkbox" name="color" value="yellow" checked>노랑
+					<input type="checkbox" name="color" value="blue" checked>파랑
+					<input type="checkbox" name="color" value="black">검정 <br>
+		성별 : 		<input type="radio" name="gender" value="male" checked>남자
+					<input type="radio" name="gender" value="female">여자 <br>
+		도시 : 		<select name="city">
+						<option value= "seoul">서울
+						<option value="daejun">대전
+						<option value= "daegu">대구
+						<option value= "busan" selected>부산
+					</select> <br>
+		자기소개 :<br> <textarea rows="10" cols="30" name="intro">
+					hello
+					</textarea> <br>
+					<input type = "submit" 	value="전송">
+					<input type = "reset" 	value="초기화">
+	</form>
+	
+	<a href="queryTest">test</a>
+</body>
+</html>
