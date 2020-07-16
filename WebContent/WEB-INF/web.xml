@@ -69,8 +69,11 @@
  	<servlet-name>test02</servlet-name>
  	<url-pattern>/test02</url-pattern>
   </servlet-mapping>
-
-
+  
+  <error-page>
+  	<exception-type>java.lang.NullPointerException</exception-type>
+  	<location>/errorHandle</location>
+  </error-page>
 
  <!-- 
   <welcome-file-list>
