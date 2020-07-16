@@ -2,7 +2,7 @@ package com.edu.test;
 
 public class Product {
 	
-	private String model;
+	private String model = "";
 	private int price;
 	private int cnt;
 	
